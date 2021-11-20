@@ -18,7 +18,7 @@
 
 .widthp{
     margin:10px !important;
-    width:320px !important;
+    width:27em !important;
 }
 
 .loginBtn {
@@ -46,7 +46,7 @@
 
 @media (max-width:700px){
     .form-login input {
-        width: 100%;
+        width: 100% !important;
         padding:0.6em 0;
     }
 }
