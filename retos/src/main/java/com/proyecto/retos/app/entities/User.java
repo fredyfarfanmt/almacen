@@ -32,12 +32,13 @@ public class User implements Serializable{
     @Id
     @GeneratedValue
     private Integer id;
-    @Column(name="user_email",nullable=false,length=80,unique=true)
-    private String user_email;
-    @Column(name="user_name",nullable=false,length=80)
-    private String user_name;
-    @Column(name="user_password",nullable=false,length=50)
-    private String user_password;
+    @Column(name="email",nullable=false,length=80,unique=true)
+    private String email;
+    @Column(name="password",nullable=false,length=50)
+    private String password;
+    @Column(name="name",nullable=false,length=80)
+    private String name;
+    
     
     
     

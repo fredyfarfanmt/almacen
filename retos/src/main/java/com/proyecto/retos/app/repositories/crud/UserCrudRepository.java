@@ -13,6 +13,9 @@ import org.springframework.data.repository.CrudRepository;
  * @author bmao9
  */
 public interface UserCrudRepository extends CrudRepository<User,Integer> {
+    
+    //Optional<User> findEmail(String email);
+    //Optional<User> findEmailAndPassword(String email, String password);
 
     
 }
