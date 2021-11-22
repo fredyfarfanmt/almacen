@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.proyecto.retos.app.contollers;
+package com.proyecto.retos.app.controllers;
 
 import com.proyecto.retos.app.entities.User;
 import com.proyecto.retos.app.services.UserService;
